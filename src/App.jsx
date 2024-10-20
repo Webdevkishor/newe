@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import Home from "../src/Components/Forever"
-import NewlyAdded from "../src/ProductPages/NewlyAdded"
-import Posting from "../src/Components/Firebase/Posting"
+// import Home from "../src/Components/Forever"
+// import NewlyAdded from "../src/ProductPages/NewlyAdded"
+// import Posting from "../src/Components/Firebase/Posting"
 import Rings from "./ProductPages/Rings"
-import Chains from "./ProductPages/Chains"
-import Haram from "./ProductPages/Haram"
+// import Chains from "./ProductPages/Chains"
+// import Haram from "./ProductPages/Haram"
 // import fd from "./Components/zara.png"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Offer from './Components/offer';
-import ProductList from './prod';
-import BuyNow from './BuyNow';
+// import Offer from './Components/offer';
+// import ProductList from './prod';
+// import BuyNow from './BuyNow';
 import NewB from './Newbuynow';
-import Pro from './Proddd';
+// import Pro from './Proddd';
 // import Swiper from '../src/Components/Swiper';
 // import JewelBackground from "../src/Components/Swiper"
 // import Image from "../src/Components/im.jpeg";
