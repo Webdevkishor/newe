@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Decrease the size of the navigation buttons */
+body{
+  background-color: white;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 30px; /* Reduce width */
+  height: 30px; /* Reduce height */
+  font-size: 20px; 
+  color:white;/* Adjust font size */
+}
+
+/* Change the icons using FontAwesome (optional) */
+.swiper-button-prev::after {
+ 
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.swiper-button-next::after {
+ 
+  font-weight: 900;
+  font-size: 20px;
+}
+
+
+/* Add this to your CSS */
+
+  
+/* #f5f5dc
+#f0f0f0
+4b4b4b
+d1b000
+ */
+      
+  
+  
+/* Optionally change the background */
+

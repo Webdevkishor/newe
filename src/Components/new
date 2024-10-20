@@ -1,0 +1,126 @@
+<Swiper
+        slidesPerView={5}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          '@0.00': {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          '@0.75': {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          '@1.00': {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          '@1.50': {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        }}
+        navigation={true}
+        modules={[ Navigation]}
+        className="mySwiper sm:p-10 "
+      >
+
+        <SwiperSlide>          
+            {/* <img src={samp}/> */}
+            <div class="relative flex flex-col rounded-xl">
+  <div class="relative  overflow-hidden rounded-xl bg-clip-border p-2">
+    <img
+      src={forim2}
+      alt="card-image"
+      class="h-full w-full object-cover rounded-sm"
+    />
+  </div>
+  
+  <a href=""><div class="sm:px-4 pl-4">
+    <p className='sm:text-xl text-xl font-forpop font-extralight  text-black'>RINGS</p>
+   
+  </div></a>
+</div>
+           
+
+</SwiperSlide>
+<SwiperSlide>          
+          
+            {/* <img src={samp}/> */}
+            <div class="relative flex flex-col rounded-xl">
+  <div class="relative  overflow-hidden rounded-xl bg-clip-border p-2">
+    <img
+      src={forim2}
+      alt="card-image"
+      class="h-full w-full object-cover rounded-sm"
+    />
+  </div>
+  <a href=""><div class="sm:px-4 pl-4">
+    <p className='sm:text-xl text-xl font-forpop font-extralight  text-black'>NECKLACE</p>
+   
+  </div></a>
+ 
+</div>
+           
+
+</SwiperSlide><SwiperSlide>          
+          
+          {/* <img src={samp}/> */}
+          <div class="relative flex flex-col rounded-xl">
+<div class="relative  overflow-hidden rounded-xl bg-clip-border p-2">
+  <img
+    src={forim2}
+    alt="card-image"
+    class="h-full w-full object-cover rounded-sm"
+  />
+</div>
+<a href=""><div class="sm:px-4 pl-4">
+    <p className='sm:text-xl text-xl font-forpop font-extralight  text-black'>BANGLE</p>
+   
+  </div></a>
+</div>
+         
+
+</SwiperSlide><SwiperSlide>          
+          
+          {/* <img src={samp}/> */}
+          <div class="relative flex flex-col rounded-xl">
+<div class="relative  overflow-hidden rounded-xl bg-clip-border p-2">
+  <img
+    src={forim2}
+    alt="card-image"
+    class="h-full w-full object-cover rounded-sm"
+  />
+</div>
+
+<a href=""><div class="sm:px-4 pl-4">
+    <p className='sm:text-xl text-xl font-forpop font-extralight  text-black'>CHAINS</p>
+   
+  </div></a>
+</div>
+         
+
+</SwiperSlide><SwiperSlide>          
+          
+          {/* <img src={samp}/> */}
+          <div class="relative flex flex-col rounded-xl">
+<div class="relative  overflow-hidden rounded-xl bg-clip-border p-2">
+  <img
+    src={forim2}
+    alt="card-image"
+    class="h-full w-full object-cover rounded-sm"
+  />
+</div>
+
+<a href=""><div class="sm:px-4 pl-4">
+    <p className='sm:text-xl text-xl font-forpop font-extralight  text-black'>Rings</p>
+   
+  </div></a>
+</div>
+         
+
+</SwiperSlide>
+ </Swiper>
